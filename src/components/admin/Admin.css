@@ -1,0 +1,171 @@
+.admin{
+  width: 1360px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+
+}
+.admin_header>a{
+  display: flex;
+  align-items:center;
+  color: white;
+  text-decoration: none;
+
+}
+.iconLogout{
+  margin-right: 20px;
+
+}
+.iconLogo{
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+.admiHeaderWrapperAdmin{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+}
+.admin_header{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  height: 100vh;
+  background: linear-gradient(175.93deg, #5F00D8 -10.23%, #B200F1 117.03%);
+  padding: 30px;
+}
+.admin_top{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 30px;
+  gap: 40px;
+}
+.admin_top-wrapper{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.admin_top-wrapper>div{
+  display: flex;
+  gap: 10px;
+
+}
+.admin_top-wrapper>div>button{
+  width: 50px;
+  height: 30px;
+  background-color: green;
+  color: wheat;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+
+}
+.books{
+  width: 100%;
+  height: 200px;
+  background-color: #EBEBEB;
+  padding: 20px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.linkSingl{
+  width: 200px;
+  height: 160px;
+  text-decoration: none;
+  margin-right: 20px;
+
+}
+.closeModal{
+  display: none;
+}
+.opeanModal{
+  display: flex;
+}
+.books>div{
+  display: flex;
+
+}
+.books>div>div:nth-child(1){
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.books>div>div:nth-child(2){
+  width: 130px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.books>div>div>button{
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+  color: black;
+  background-color: yellow;
+  outline: none;
+  border: none;
+
+}
+.books>div>div>button:nth-child(2){
+  background-color: red;
+}
+.madalInfo{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+
+}
+.madalInputWrapper1{
+  width: 500px;
+  height: 500px;
+  background: #fff;
+  padding: 20px;
+  position: absolute;
+  z-index: 4;
+}
+.madalForm{
+  display: flex;
+  flex-direction:column;
+  gap: 20px;
+
+}
+.madalForm> input, select{
+  width: 100%;
+  height: 30px;
+  padding: 15px;
+
+
+}
+.madalForm>button{
+  width: 50%;
+  height: 30px;
+  padding: 15px;
+  
+}
+.admin_book-add{
+  overflow-y: auto;
+  padding-right: 20px;
+}
